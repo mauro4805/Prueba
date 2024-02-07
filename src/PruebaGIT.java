@@ -1,5 +1,10 @@
+import java.util.Scanner;
+
 public class PruebaGIT {
     public static void main(String[] args) {
-        System.out.println("THIS IS ELON MUSK");
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Introduce tu nombre");
+        teclado.nextLine();
+        System.out.println("Holaa "+teclado);
     }
 }
