@@ -6,5 +6,6 @@ public class PruebaGIT {
         System.out.println("Introduce tu nombre");
         teclado.nextLine();
         System.out.println("Holaa "+teclado);
+
     }
 }
